@@ -1,19 +1,17 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application has been written on Windows 7.
+It is an example of how to use Authorization i.e. only users with a given role can access certain parts of the application.
 
-Things you may want to cover:
+* Ruby version: 4.1
 
-* Ruby version
+* System dependencies: Windows 7
 
-* System dependencies
+* Configuration: Rails 4.1.8
 
-* Configuration
+* Database creation: SQLite3
 
-* Database creation
-
-* Database initialization
+* Database initialization: contains a seeds.rb file to seed the database
 
 * How to run the test suite
 
@@ -22,7 +20,3 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
