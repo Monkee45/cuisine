@@ -1,8 +1,8 @@
 class RecipesController < ApplicationController
 
-    before_action :require_user, only: [:show, :edit, :update, :destroy]
+    before_action :require_user, only: [:show]
   # Only permit users with an editor role to access show and edit
-    before_action :require_editor, only: [:show, :edit]
+    before_action :require_editor, only: [:update, :edit]
   # Only permit users with admin role to delete/destroy
     before_action :require_admin, only: [:destroy]
 

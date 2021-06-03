@@ -10,6 +10,13 @@ class ApplicationController < ActionController::Base
  end
 
  def require_user
+     if current_user
+         Rails.logger.info "MYINFO: require_user returning True"
+         return true
+     else
+         Rails.logger.info "MYINFO: Logged in Usre is NOT a Current User"
+    end
+
    redirect_to '/login' unless current_user
  end
 
