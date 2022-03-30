@@ -1,27 +1,22 @@
 {
-  "name": "cuisine",
+  "name": "app",
   "private": true,
   "dependencies": {
-    "@popperjs/core": "2.9.2",
-    "@rails/actioncable": "^6.0.0",
-    "@rails/activestorage": "^6.0.0",
-    "@rails/ujs": "^6.0.0",
-    "@rails/webpacker": "^5.4.0",
-    "bootstrap": "^5.0.1",
-    "braces": "^3.0.2",
-    "chokidar": "^3.5.2",
-    "css-what": "^5.0.1",
-    "minimist": "^1.2.6",
-    "open": "^8.2.1",
-    "turbolinks": "^5.2.0",
-    "webpack": "^5.44.0",
-    "webpack-cli": "^3.3.12"
+    "@rails/webpacker": "^6.0.0-rc.6",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
   },
   "version": "0.1.0",
-  "devDependencies": {
-    "webpack-dev-server": "^4.7.4"
+  "babel": {
+    "presets": [
+      "./node_modules/@rails/webpacker/package/babel/preset.js"
+    ]
   },
-  "resolutions": {
-    "**/glob-parent": "^5.1.2"
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "@webpack-cli/serve": "^1.6.1",
+    "webpack-dev-server": "^4.7.4"
   }
 }
