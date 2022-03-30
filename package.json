@@ -11,7 +11,7 @@
     "braces": "^3.0.2",
     "chokidar": "^3.5.2",
     "css-what": "^5.0.1",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "open": "^8.2.1",
     "turbolinks": "^5.2.0",
     "webpack": "^5.44.0",
